@@ -24,12 +24,13 @@ To start the game, load the script in your Python environment and call the main 
 * `pedra` (str): The external representation of your stones (`'X'` for Black or `'O'` for White). Black always plays first.
 
 ### Example Usage:
-```python
+python
 # Starts a 4x4 (2 orbits) game against the Easy AI, playing as Black ('X')
 orbito(2, 'facil', 'X')
 
 # Starts a local 2-player game on an 8x8 board (4 orbits)
 orbito(4, '2jogadores', 'X')
+
 
 ## License
 
